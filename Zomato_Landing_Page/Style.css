@@ -1,0 +1,461 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Poppins",sans-serif;
+}
+.section1{
+    background:url("Images/heroSectionBackground.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+
+}
+.navbar{
+    display: flex; 
+    padding: 16px 40px;  
+    justify-content: space-between;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
+.LinkContainer{
+    display:flex;
+    gap:20px;
+}
+.sign_icon{
+    color: white;
+    height: 25px;
+    width:25px;
+    border-radius: 100%;
+    border:1px solid white;
+    align-items:center;
+    justify-content: center;
+    display:none;
+    
+}
+.sec1_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height:250px;
+    gap:20px;
+}
+.s1_logo{
+    height:45px;
+}
+.sec1_container h1{
+    font-size: 30px;
+    font-weight:normal;
+}
+.s1_input{
+    padding: 10px;
+    background-color:white;
+    border-radius:8px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+.s1_location,.s1_res{
+    padding: 5px;
+    border:none ;
+    outline: none;
+
+}
+.s1_location{
+    width:35%;
+    border-right: 2px solid gainsboro;
+}
+.s1_res{
+    width:65%;
+}
+.container{
+        margin: 3rem auto;
+        width: 90%;
+}
+.s2_card_container{
+  
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+   
+}
+.s2_card{
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    cursor:  pointer;
+    align-items: center;
+    justify-content: center;
+    
+}
+.s2_card:hover{
+    transition:all  0.9s ease-in-out;
+    transform: scale(1.1);
+    gap:30px;
+
+}
+.s2_card img{
+    overflow: hidden;
+    height:180px;
+    width:325px;
+   
+
+}
+.s2_card_content h2,p   {
+    margin-left: 3px;
+    font-weight:300;
+    padding: 1px;
+}
+.collection_head h1{
+    margin-left: 8rem;
+
+}
+.s3_span2{
+    float: right;
+    margin-right:101px;
+    color: red;
+    font-size: 15px;
+    font-weight:normal;
+    
+}
+.s3_span1{
+    margin: 8rem;
+    font-size: 15px;
+    font-weight:normal;
+}
+.s3_span2:hover{
+    color:crimson;
+}
+.s3_collection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    gap: 1.5rem;
+    position:relative;
+}
+.s3card1{
+    background-image: url(/Images/collection1.jpg);
+    background-position: center;
+    border-radius:  10px;
+    background-size: cover;
+    height: 300px;
+    min-width: 250px;   
+
+}
+.s3card2{
+    background-image: url(/Images/collection2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    border-radius:  10px;
+    min-width: 250px;
+}
+.s3card3{
+    background-image: url(/Images/collection3.jpg);
+    background-position: center;
+    border-radius:  10px;
+    background-size: cover;
+    height: 300px;
+    min-width: 250px;
+}
+.s3card4{
+    background-image: url(/Images/collection4.jpg);
+    background-position: center;
+    border-radius:  10px;
+    background-size: cover;
+    height: 300px;
+    min-width: 250px;
+    
+    
+}
+.s3_card_content1 {
+    color:white;
+    position: absolute;
+    top: 250px;
+
+}
+.s3_card_content2 {
+    color:white;
+    position: absolute;
+    top: 250px;
+
+}
+.s3_card_content3 {
+    color:white;
+    position: absolute;
+    top: 250px;
+
+}
+.s3_card_content4    {
+    color:white;
+    position: absolute;
+    top: 250px;
+
+}
+.s3_card_content p{
+margin-right: 50px;
+}
+.get__the_app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 251, 247);
+    width: 100%;
+    padding: 3rem 6rem;
+}
+
+.get__the_app .semiContainer{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.get__the_app .semiContainer .left{
+    flex: 2;
+}
+
+/* .get__the_app .semiContainer .left img */
+/*  .semiContainer .left img */
+/* .left img */
+
+.get__the_app .semiContainer .left img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* column : 12 */
+
+.get__the_app .semiContainer .right{
+    flex: 3;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.get__the_app .semiContainer .right h1{
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.get__the_app .semiContainer .right p{
+    font-size: 0.8rem;
+}
+
+
+.get__the_app .semiContainer .right .radio__buttons_container{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.get__the_app .semiContainer .right .radio__buttons_container div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.right .radio__buttons_container div input{
+    height: 15px;
+    width: 15px;
+    accent-color: rgb(239, 79, 95);
+}
+
+.semiContainer .right .input_container{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.input_container{
+    flex-wrap: wrap;
+}
+
+.input_container button, .input_container input{
+    padding: 10px 12px;
+}
+
+.input_container input{
+    flex: auto;
+    border: 1.5px solid gray;
+    outline: none;
+    border-radius: 5px;
+}
+
+.input_container button{
+    border: none;
+    background-color: rgb(239, 79, 95);
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.right .download__app_container{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+}
+
+
+.download__app_container h5{
+    font-weight: 400;
+    color: gray;
+}
+
+.download__app_container div{
+    display: flex;
+    gap: 1rem;
+}
+
+.download__app_container div img{
+    width: 35%;
+}
+footer{
+   
+
+}
+.img_but{
+    margin: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    padding: 15px;
+}
+.img_but img{
+    width: 130px;
+}
+.F_button{  
+  display: flex;
+  gap:1rem;
+ 
+}
+.F_button button{
+    display: flex;
+    width:85px;
+    padding:5px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background-color: rgb(255, 251, 247);;
+
+
+}
+.F_button i{
+    margin: 5px;
+}
+.F_button img{
+    align-items: center;
+    margin: 1px;
+   
+}
+.overall_about{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 80%;
+    margin: auto;
+    gap:20px;
+   
+}
+.overall_about a {
+    color:black;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 12.5px;
+    color: gray;
+}
+.disclamer{
+    width: 95%;
+    margin: auto;
+    color: gray;
+    border-top: 1px solid gray;
+    padding-top: 1.5rem;
+    
+}
+
+@media only screen and (max-width: 1300px){
+    .get__the_app .semiContainer .left,
+    .get__the_app .semiContainer .right {
+        flex: 1;
+    }
+    .get__the_app .semiContainer{
+        width: 80%;
+    }
+}
+
+
+@media only screen and (max-width: 900px){
+  .get__the_app{
+    padding: 2rem;
+  }
+  .get__the_app .semiContainer{
+    width: 90%;
+    flex-direction: column;
+  }
+  .get__the_app .semiContainer .right h1{
+    font-size: medium;
+  }
+}
+
+
+
+@media only screen and (max-width: 600px){
+    .LinkContainer .sign_icon{
+        display: flex;
+    }
+    .link{
+        display: none;
+    }
+    .section{
+        min-height: 80vh;
+    }
+    .navbar{
+        padding: 16px;
+    }
+    .sec1_container h1{
+        width: 95%;
+        font-size: 20px;
+    }
+    .sec1_container{
+        flex-direction: column;
+        height: calc(80vh - 60px);
+        width: 100%;
+    }
+    .s1_location, .s1_res{
+        padding: 15px;
+        border-radius: 15px;
+        width: 95%;
+    }
+    .s2_card{
+        gap: 1rem;
+    }
+    .s2_card img{
+        overflow: hidden;
+        height:180px;
+        width:300px;
+    }
+    .s2_card_content h2,p   {
+        margin-left: 3px;
+        font-weight:300;
+        font-size: 12px;
+        
+    }
+    .s3_span1 .s3_span2{
+        font-size: 10px;
+    }
+   
+    
+}
+
